@@ -1,2 +1,1 @@
-# tincat
-tinder for cats for my portfolio
+TinDog Starting Files
