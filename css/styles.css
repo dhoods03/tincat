@@ -59,8 +59,9 @@ em {
 /*T Title Image */
 .image-cat {
   position: absolute;
-  width: 65%;
+  width: 55%;
   transform: rotate(25deg);
+  bottom: -155%;
   right: 30%;
 }
 
