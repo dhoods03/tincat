@@ -173,6 +173,7 @@ em {
   }
 
   .testimonial-text {
+    margin: 75px 0 0 0 ;
     font-family: "Montserrat-bold";
     font-size: 1.5rem;
     line-height: 1.5rem;
