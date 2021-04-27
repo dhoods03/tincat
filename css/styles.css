@@ -162,7 +162,7 @@ padding: 7% 15%;
   line-height: 3rem;
 }
 
-@media(max-width: 1028px) {
+@media(max-width: 900px) {
   #title {
     text-align: center;
   }
