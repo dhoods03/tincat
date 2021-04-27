@@ -2,11 +2,6 @@ body {
   font-family: "Montserrat";
 }
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
-
 h1 {
   font-family: "Montserrat-black";
   font-size: 3rem;
@@ -26,16 +21,19 @@ h3 {
 
 p {
   color: #000000;
-  font-family: "Ubuntu-black";
-  font-size: 18px;
 }
-em{
+
+em {
   color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /*Navigation bar */
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 4.5rem 0;
 }
 
 .navbar-brand {
@@ -60,12 +58,24 @@ em{
 
 /*T Title Image */
 .image-cat {
-  width: 50%;
+  position: absolute;
+  width: 60%;
   transform: rotate(25deg);
+  bottom: -100%;
+  right: 30%;
+}
+
+/* Title Section*/
+
+#title {
+  background-color: #ff4c68;
+  color: white;
 }
 
 /* Features Section*/
 #features {
+  position: relative;
+  background-color: white;
   padding: 7% 15%;
   text-align: center;
 }
@@ -82,8 +92,8 @@ em{
 
 /* Testimonials Section*/
 #testimonials {
+  padding-bottom: 35%;
   background-color: #ef8172;
-  padding: 7% 15%;
   text-align: center;
   color: #fff;
 }
@@ -94,13 +104,82 @@ em{
   margin: 20px;
 }
 
-#press{
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.move {
+  margin-top: 20%;
+}
+
+#press {
   background: #ef8172;
   text-align: center;
   padding-bottom: 3%;
 }
 
-.press-logo{
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION*/
+#pricing {
+  background-color: white;
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 10px 10px 20px;
+}
+.trademark{
+
+}
+
+/* ENDING SECTION */
+
+#ending {
+  background-color: #ff4c68;
+  color: white;
+padding: 7% 15%;
+  text-align: center;
+}
+
+.ending-text{
+  font-family: "Montserrat-black";
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .image-cat {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .testimonial-text {
+    font-family: "Montserrat-bold";
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .press-logo {
+    width: 15%;
+    margin: 50px 20px 50px;
+  }
 }
